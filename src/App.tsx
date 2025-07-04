@@ -152,7 +152,9 @@ const App = () => {
        }
    ]
   };
-
+ useEffect(() => {
+    document.title = "Manoj Gutta | Data Engineer Portfolio";
+  }, []);
   // State for animations and interactions
   const [activeSection, setActiveSection] = useState('home');
   const [isVisible, setIsVisible] = useState({
