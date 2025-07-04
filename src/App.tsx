@@ -152,13 +152,6 @@ const App = () => {
        }
    ]
   };
- useEffect(() => {
-    document.title = "Manoj Gutta | Data Engineer Portfolio";
-  }, []);
-  <!-- SEO & Social Sharing -->
-<meta name="title" content="Manoj Gutta – Data Pipeline Engineer" />
-<meta name="description" content="Data pipeline engineer transforming raw data into business intelligence using Azure, Python, SQL, Power BI, and Tableau." />
-
   // State for animations and interactions
   const [activeSection, setActiveSection] = useState('home');
   const [isVisible, setIsVisible] = useState({
